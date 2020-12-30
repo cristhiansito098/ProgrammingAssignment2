@@ -18,7 +18,10 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## this function has 4 items set, get, setinverse and getinverse.
+##set gives the value of the matrix, get returns the value of the matrix, 
+##setinverse gives the value of the matrix and getinverse gives the value of
+##the inverse of the matrix
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
@@ -32,4 +35,5 @@ cacheSolve <- function(x, ...) {
   x$setinverse(i)
   i
 }
+##this function returns the value of the array stored in the cache
 
